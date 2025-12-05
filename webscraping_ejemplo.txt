@@ -1,0 +1,28 @@
+    # Primero instalamos las librerías (si no las tienes):
+    # !pip install requests beautifulsoup4
+
+    import requests
+    from bs4 import BeautifulSoup
+
+    # 1. Definir la URL que queremos scrapear
+    url = "https://example.com"  # cámbiala por la página que necesites
+
+    # 2. Hacer una petición HTTP al sitio
+    response = requests.get(url)
+
+    # Verificar que la página cargó bien (código 200 = OK)
+    if response.status_code == 200:
+        print("Página cargada correctamente 🎉")
+    else:
+        print("Algo salió mal:", response.status_code)
+
+    # 3. Procesar el HTML con BeautifulSoup
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # 4. Buscar elementos específicos
+    titulos = soup.find_all("h2")
+
+    # 5. Imprimir resultados
+    print("\nTítulos encontrados:\n")
+    for t in titulos:
+        print("-", t.get_text(strip=True))
