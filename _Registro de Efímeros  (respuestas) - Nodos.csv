@@ -1,0 +1,36 @@
+id,label,type
+O01,O01,Objeto
+O02,O02,Objeto
+O03,O03,Objeto
+O04,O04,Objeto
+O05,O05,Objeto
+Afiche,Afiche,Tipo
+Collage,Collage,Tipo
+Folleto,Folleto,Tipo
+Souvenir,Souvenir,Tipo
+Sticker,Sticker,Tipo
+Cartulina,Cartulina,Material
+Recortes,Recortes,Material
+Papel,Papel,Material
+Tela,Tela,Material
+Adhesivo,Adhesivo,Material
+Violencias,Violencias,Tema
+Memoria,Memoria,Tema
+Derechos humanos,Derechos humanos,Tema
+Salud mental,Salud mental,Tema
+Género,Género,Tema
+Denuncia,Denuncia,Gesto
+Archivo afectivo,Archivo afectivo,Gesto
+Difusión,Difusión,Gesto
+Reparación,Reparación,Gesto
+Interpelación,Interpelación,Gesto
+Indignación,Indignación,Afecto
+Nostalgia,Nostalgia,Afecto
+Esperanza,Esperanza,Afecto
+Cuidado,Cuidado,Afecto
+Coraje,Coraje,Afecto
+Asimetría de poder,Asimetría de poder,Tensión
+Vacío,Vacío,Tensión
+Incertidumbre,Incertidumbre,Tensión
+Fragilidad,Fragilidad,Tensión
+Conflicto,Conflicto,Tensión
